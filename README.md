@@ -17,7 +17,7 @@ The used car market is a complex and dynamic ecosystem, with various factors inf
 ## Data Exploration
 The dataset consists of 301 used car listings, with features such as car name, year of manufacture, selling price, present price, driven kilometers, fuel type, selling type, transmission, and owner count. The data was thoroughly analyzed, and key insights were drawn:
 
-- The selling price distribution is right-skewed, indicating that most used cars sell for less than ₹10 lakhs, with a few outliers at significantly higher prices.
+- The selling price distribution is right skewed, indicating that most used cars sell for less than 10 lakhs, with a few outliers at significantly higher prices.
 - Strong multicollinearity was observed among the selling price, present price, and year of manufacture features, suggesting the need for feature reduction.
 
 ## Feature Engineering
@@ -27,7 +27,7 @@ To enhance the model's performance, several feature engineering steps were taken
 2. **Extracting Brand Names**: The car brand was extracted from the car name feature.
 3. **Computing Car Depreciation**: The car depreciation was calculated as the difference between the present price and the selling price.
 4. **Label Encoding**: Categorical features, such as fuel type, selling type, and transmission, were label-encoded to prepare them for the machine learning models.
-5. **Target Encoding**: The car brand feature was target-encoded using the mean selling price for each brand.
+5. **Target Encoding**: The car brand feature was target encoded using the mean selling price for each brand.
 
 ## Model Building
 Two regression models were trained and evaluated:
@@ -49,4 +49,4 @@ The evaluation metrics for the two models are as follows:
 The Random Forest Regressor outperformed the Linear Regression model, achieving a significantly lower RMSE and a higher R² score, indicating better predictive accuracy and a stronger ability to capture complex patterns in the data.
 
 ## Conclusion
-This project demonstrates the effectiveness of using machine learning techniques, particularly the Random Forest Regressor, to predict the selling price of used cars. The feature engineering and model selection steps played a crucial role in achieving high-performance results. The insights gained from this analysis can be valuable for both car buyers and sellers in making informed decisions.
+This project demonstrates the effectiveness of using machine learning techniques, particularly the Random Forest Regressor, to predict the selling price of used cars. The feature engineering and model selection steps played a crucial role in achieving high performance results. The insights gained from this analysis can be valuable for both car buyers and sellers in making informed decisions.
