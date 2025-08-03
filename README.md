@@ -1,7 +1,5 @@
-# OIBSIP-Car-Price-Prediction-Task-3
-Oasis InfoByte Internship | Task 3
-
 # Car Price Prediction
+Oasis InfoByte Internship | Task 3
 
 This project aims to develop a machine learning model to predict the selling price of used cars based on various features. The dataset used in this project was obtained from a popular car sales platform.
 
